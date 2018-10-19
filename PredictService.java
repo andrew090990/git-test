@@ -14,15 +14,7 @@ import ru.skoltech.aeronetlab.moz.dal.TimeSeriesRepository;
 import ru.skoltech.aeronetlab.moz.exceptions.http.BadRequest;
 import ru.skoltech.aeronetlab.moz.exceptions.http.HttpException;
 import ru.skoltech.aeronetlab.moz.exceptions.http.InternalServerError;
-import ru.skoltech.aeronetlab.moz.exceptions.http.TimeSeriesNotFound;
-import ru.skoltech.aeronetlab.moz.geoserver.GeoserverPublisher;
-import ru.skoltech.aeronetlab.moz.services.ZipService;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.List;
+import ru.skolt
 import java.util.stream.Collectors;
 
 @Service
